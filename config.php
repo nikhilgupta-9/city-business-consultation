@@ -16,9 +16,10 @@ return [
     'founder'       => 'City Business Consulting Advisory Team',
     'founder_note'  => 'Registered NZ tax specialists and Xero certified advisors serving clients across Auckland, Wellington, Christchurch, and nationwide.',
 
-    // Contact details (can be set directly or configured)
-    'phone'         => '+64 9 888 7654',            // NZ phone number e.g. +64 9 888 7654
-    'whatsapp'      => '64210000000',               // WhatsApp international format
+    // Contact details
+    'phone'         => '+91 81789 32532',
+    'whatsapp'      => '918178932532',
+    'facebook_url'  => 'https://www.facebook.com/profile.php?id=61590339938683',
     'email'         => 'info@citybusinessconsulting.co.nz',
     'location'      => 'Auckland, New Zealand',
 

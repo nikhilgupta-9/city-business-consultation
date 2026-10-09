@@ -58,6 +58,11 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
     </div>
 
     <div class="header-actions">
+      <?php if (!empty($cfg['facebook_url'])): ?>
+        <a href="<?= e($cfg['facebook_url']) ?>" target="_blank" rel="noopener" aria-label="Facebook Page" style="display: flex; align-items: center; color: #1877F2; padding: 6px;" title="Visit Facebook Page">
+          <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+      <?php endif; ?>
       <?php if ($tel !== ''): ?>
         <a class="header-phone-link" href="tel:<?= e($tel) ?>">
           <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
@@ -605,7 +610,7 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
         <?php if ($tel !== ''): ?>
           <a class="btn btn-closing-outline btn-lg" href="tel:<?= e($tel) ?>">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-            <span>Call (09) 888 7654</span>
+            <span>Call <?= e($cfg['phone']) ?></span>
           </a>
         <?php endif; ?>
 
@@ -648,9 +653,17 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
         <h4>Direct Contact</h4>
         <ul>
           <?php if ($tel !== ''): ?><li><a href="tel:<?= e($tel) ?>">Phone: <?= e($cfg['phone']) ?></a></li><?php endif; ?>
+          <?php if ($wa !== ''): ?><li><a href="https://wa.me/<?= e($wa) ?>" target="_blank" rel="noopener">WhatsApp Chat</a></li><?php endif; ?>
+          <?php if (!empty($cfg['facebook_url'])): ?>
+            <li>
+              <a href="<?= e($cfg['facebook_url']) ?>" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 6px;">
+                <svg width="16" height="16" fill="#1877F2" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                <span>Follow on Facebook</span>
+              </a>
+            </li>
+          <?php endif; ?>
           <?php if (!empty($cfg['email'])): ?><li><a href="mailto:<?= e($cfg['email']) ?>"><?= e($cfg['email']) ?></a></li><?php endif; ?>
           <li><a href="privacy.php">Privacy &amp; Data Policy</a></li>
-          <li><a href="#enquire">Request Free Tax Review</a></li>
         </ul>
       </div>
     </div>
