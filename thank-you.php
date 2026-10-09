@@ -38,7 +38,7 @@ $version = (string) @filemtime(__DIR__ . '/assets/style.css');
       <div class="brand-icon">C</div>
       <div class="brand-info">
         <span class="brand-title"><?= e($cfg['brand']) ?></span>
-        <span class="brand-sub">Accounting &amp; Tax • New Zealand</span>
+        <span class="brand-sub">India-Based Practice • NZ &amp; AU Tax Specialists</span>
       </div>
     </a>
   </div>

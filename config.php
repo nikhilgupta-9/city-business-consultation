@@ -14,14 +14,14 @@ return [
 
     // Founder / Lead Accountant
     'founder'       => 'City Business Consulting Advisory Team',
-    'founder_note'  => 'Registered NZ tax specialists and Xero certified advisors serving clients across Auckland, Wellington, Christchurch, and nationwide.',
+    'founder_note'  => 'India-based practice of senior Chartered Accountants and Xero-certified professionals delivering high-quality, cost-effective tax and accounting services for New Zealand & Australia.',
 
     // Contact details
     'phone'         => '+91 81789 32532',
     'whatsapp'      => '918178932532',
     'facebook_url'  => 'https://www.facebook.com/profile.php?id=61590339938683',
     'email'         => 'info@citybusinessconsulting.co.nz',
-    'location'      => 'Auckland, New Zealand',
+    'location'      => 'India-based Practice • Serving NZ & AU Nationwide',
 
     // Lead notification settings
     'notify_email'  => 'leads@citybusinessconsulting.co.nz',
@@ -103,8 +103,12 @@ return [
             'a' => 'We believe in 100% price transparency. We offer agreed-upon fixed monthly packages or fixed one-off pricing for annual returns. You will never receive an unexpected bill for asking a question.'
         ],
         [
-            'q' => 'Do you only work with businesses in Auckland, or all of New Zealand?',
-            'a' => 'We are based in Auckland but support small businesses, contractors, tradies, and startups right across New Zealand (Auckland, Hamilton, Tauranga, Wellington, Christchurch, Queenstown & beyond) through secure cloud accounting with Xero.'
+            'q' => 'How does working with an India-based accounting firm benefit my NZ business?',
+            'a' => 'You get dedicated support from qualified Chartered Accountants and certified Xero specialists with deep NZ tax knowledge, while saving 40–60% compared to local accounting firms. We operate aligned with NZ business hours, ensuring rapid turnaround and continuous support.'
+        ],
+        [
+            'q' => 'Do you work with businesses all across New Zealand & Australia?',
+            'a' => 'Yes! We support sole traders, contractors, SMEs, and local CPA practices across Auckland, Wellington, Christchurch, Hamilton, Tauranga, Sydney, Melbourne, and beyond via secure cloud platforms like Xero and MYOB.'
         ],
         [
             'q' => 'How easy is it to switch from my current accountant?',

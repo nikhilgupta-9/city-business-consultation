@@ -36,8 +36,8 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
 <!-- Top Announcement Bar -->
 <div class="top-bar">
   <div class="wrap">
-    <span class="tag">🇳🇿 NZ Tax Special</span>
-    <span>Get Your Free 2024/2025 Tax Diagnostic & IRD Compliance Review — No Obligation</span>
+    <span class="tag">🇮🇳 India-Based Firm</span>
+    <span>Specialized NZ Accounting, Tax &amp; Bookkeeping Services • Save 40–60% On Costs • 100% IRD Compliant</span>
   </div>
 </div>
 
@@ -48,13 +48,13 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
       <div class="brand-icon">C</div>
       <div class="brand-info">
         <span class="brand-title"><?= e($cfg['brand']) ?></span>
-        <span class="brand-sub">Accounting &amp; Tax • New Zealand</span>
+        <span class="brand-sub">India-Based Practice • NZ &amp; AU Tax Specialists</span>
       </div>
     </a>
 
     <div class="header-trust">
       <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
-      <span>Registered NZ Tax Agent Support</span>
+      <span>NZ IRD Tax &amp; Xero Specialists</span>
     </div>
 
     <div class="header-actions">
@@ -121,13 +121,13 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
         </ul>
 
         <div class="hero-media-card">
-          <img src="assets/images/hero-team.jpg" alt="City Business Consulting Auckland Team" width="600" height="300" loading="eager">
+          <img src="assets/images/hero-team.jpg" alt="City Business Consulting Senior Accounting Team" width="600" height="300" loading="eager">
           <div class="hero-media-badge">
             <span>
               <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-              Auckland &amp; Nationwide Team
+              Dedicated India Delivery Team
             </span>
-            <span class="highlight">99.8% On-Time IRD Returns</span>
+            <span class="highlight">Save 40–60% • 99.8% On-Time Returns</span>
           </div>
         </div>
       </div>
@@ -236,7 +236,7 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
           <div class="trust-item-icon">
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
           </div>
-          <span>Inland Revenue (IRD) Registered</span>
+          <span>India-Based Qualified CAs</span>
         </div>
 
         <div class="trust-item">
@@ -250,21 +250,21 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
           <div class="trust-item-icon">
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           </div>
-          <span>MYOB Certified Partner</span>
+          <span>Specialized in NZ &amp; AU Tax</span>
         </div>
 
         <div class="trust-item">
           <div class="trust-item-icon">
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 002 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10z"/></svg>
           </div>
-          <span>Fixed Pricing — No Hourly Surprises</span>
+          <span>Save 40–60% on Overheads</span>
         </div>
 
         <div class="trust-item">
           <div class="trust-item-icon">
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
           </div>
-          <span>Auckland Based • NZ Nationwide</span>
+          <span>Aligned with NZ Working Hours</span>
         </div>
       </div>
     </div>
@@ -463,7 +463,7 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
     </div>
   </section>
 
-  <!-- Meet Advisor & Auckland Office Presence -->
+  <!-- Meet Advisor & Delivery Model Section -->
   <section class="section section-light">
     <div class="wrap">
       <div class="advisor-grid">
@@ -474,38 +474,38 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
             </div>
             <div>
-              <strong style="display:block; font-size: 0.95rem; color: var(--dark);">Direct Advisor Access</strong>
-              <span style="font-size: 0.8rem; color: var(--muted);">Talk to the person doing the work</span>
+              <strong style="display:block; font-size: 0.95rem; color: var(--dark);">India-Based Specialists</strong>
+              <span style="font-size: 0.8rem; color: var(--muted);">Direct access to senior accountants</span>
             </div>
           </div>
         </div>
 
         <div class="advisor-content">
-          <span class="section-tag">Auckland &amp; NZ Nationwide</span>
-          <h2>Experienced NZ Tax Advisors You Can Actually Talk To</h2>
+          <span class="section-tag">India Practice • NZ Delivery</span>
+          <h2>India-Based Qualified CAs Delivering Specialized NZ Tax &amp; Accounting</h2>
           <p>
-            At <?= e($cfg['brand']) ?>, you are never just a client account number passed around junior staff. You get a dedicated, experienced accountant who understands New Zealand tax law, GST rules, and small business realities.
+            <?= e($cfg['brand']) ?> is an India-based accounting practice that gives New Zealand small businesses, contractors, and CPA firms access to senior Chartered Accountants and certified Xero specialists at <strong>40% to 60% lower costs</strong> than domestic accounting fees.
           </p>
           <p>
-            Whether you are a builder in Auckland, an e-commerce retailer in Christchurch, or a consultant in Wellington, we provide proactive advice that keeps you ahead of Inland Revenue deadlines and protects your bottom line.
+            Our dedicated team is rigorously trained in New Zealand tax legislation, GST rules, PAYE payday filing, and Inland Revenue (IRD) compliance. We operate aligned with New Zealand timezones to deliver faster turnaround and seamless communication.
           </p>
 
           <div class="advisor-pillars">
             <div class="pillar-item">
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>100% NZ Owned &amp; Operated</span>
+              <span>Save 40–60% on Overheads</span>
             </div>
             <div class="pillar-item">
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>Seamless Handover From Old Accountant</span>
+              <span>Qualified CAs &amp; Tax Specialists</span>
             </div>
             <div class="pillar-item">
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>Xero &amp; Cloud Accounting Specialists</span>
+              <span>Xero &amp; MYOB Certified Practice</span>
             </div>
             <div class="pillar-item">
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-              <span>IRD Audit Protection &amp; Support</span>
+              <span>Aligned with NZ Timezone &amp; Hours</span>
             </div>
           </div>
         </div>
@@ -631,10 +631,10 @@ $version  = (string) @filemtime(__DIR__ . '/assets/style.css');
       <div class="footer-brand">
         <h3><?= e($cfg['brand']) ?></h3>
         <p>
-          Dedicated accounting, tax compliance, GST returns, and Xero advisory for small businesses, contractors, and startups across New Zealand.
+          India-based accounting and consulting practice providing specialized offshore accounting, NZ tax compliance, GST returns, and Xero advisory for businesses across New Zealand and Australia.
         </p>
         <p style="margin-top: 12px; font-weight: 600; color: #cbd5e1;">
-          📍 Auckland Office • Serving NZ Nationwide
+          📍 Headquartered in India • Dedicated Offshore Delivery for NZ &amp; AU
         </p>
       </div>
 
